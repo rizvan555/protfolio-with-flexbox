@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-header .name {
+.header__name {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -25,10 +25,10 @@ header .name {
   padding: 33px 0px 0px 50px;
   color: #fff;
 }
-header nav {
+.header__nav {
   padding: 33px 87px 0 0;
 }
-header nav a {
+.header__nav a {
   margin-right: 40px;
   text-decoration: none;
   font-weight: 400;
@@ -37,7 +37,7 @@ header nav a {
   text-transform: uppercase;
   color: #fff;
 }
-header nav a:nth-of-type(5) {
+.header__nav a:nth-of-type(5) {
   border: 2px solid #4338ca;
   padding: 10px 20px;
   color: #fff;
@@ -52,39 +52,56 @@ main {
   padding-left: 123px;
   flex-direction: row;
 }
-main .vector {
+.main__icons1 {
   display: flex;
-  justify-content: space-between;
   align-self: baseline;
   padding: 80px 0;
   margin-left: -50px;
+  position: relative;
+
+}
+.main__vector3 {
+  width: 61px;
+  height: 62px;
+}
+.main__ellipse1 {
+  width: 23px;
+  height: 23px;
+  left: 820px;
+  bottom: 150px;
+  position: absolute;
+}
+.main__ellipse2 {
+  position: absolute;
+  bottom: -450px;
+  left: 260px;
 }
 
-main article {
+.main__article {
   display: flex;
   flex-direction: column;
   color: #fff;
 }
-main article h3 {
+.main__article h3 {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
   text-transform: uppercase;
   margin-bottom: 13px;
 }
-main article h1 {
+.main__article h1 {
   font-weight: 700;
   font-size: 80px;
   line-height: 93.02%;
   margin-bottom: 13px;
 }
-main article p {
+.main__article p {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 25px;
 }
-main article span {
+.main__article span {
   font-weight: 400;
   font-size: 22px;
   line-height: 38px;
@@ -98,21 +115,21 @@ main article span {
   height: 68px;
   background: #b7dc89;
 }
-main .portfolio-bild {
+.main__portfolio-bild {
   position: relative;
   display: flex;
   padding-left: 20px;
 }
-main .portfolio-bild .bild {
+.main__portfolio-bild .bild {
   z-index: 1;
 }
-main .portfolio-bild .rahmen {
+.main__portfolio-bild .rahmen {
   position: absolute;
   padding-left: 32px;
   padding-top: 27px;
 }
 
-.section2 {
+#section2 {
   font-family: "Poppins";
   display: flex;
   flex-direction: column;
@@ -122,27 +139,26 @@ main .portfolio-bild .rahmen {
   padding-left: 163px;
 }
 
-.section2 h1 {
+#section2 h1 {
   font-weight: 700;
   font-size: 67px;
   line-height: 100px;
   color: #4338ca;
 }
-.section2 p {
+#section2 p {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #4338ca;
 }
-.section2 .icons {
+.section2__icons {
   display: flex;
   margin-top: 15px;
   gap: 30px;
 }
-.section2 .vector3 {
+.section2__vector3 {
   width: 61px;
   height: 62px;
   margin-top: 50px;
   margin-left: -75px;
-  
 }
