@@ -52,6 +52,14 @@ main {
   padding-left: 123px;
   flex-direction: row;
 }
+main .vector {
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+  padding: 80px 0;
+  margin-left: -50px;
+}
+
 main article {
   display: flex;
   flex-direction: column;
@@ -130,4 +138,11 @@ main .portfolio-bild .rahmen {
   display: flex;
   margin-top: 15px;
   gap: 30px;
+}
+.section2 .vector3 {
+  width: 61px;
+  height: 62px;
+  margin-top: 50px;
+  margin-left: -75px;
+  
 }
