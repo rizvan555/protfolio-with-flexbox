@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "Poppins";
+  src: url("../resource/fonts/Poppins-Regular.ttf");
+}
 body {
   font-size: 10px;
+  font-family: "Poppins", sans-serif;
 }
 .section1 {
   font-family: "Poppins";
@@ -194,12 +198,35 @@ main {
   padding-left: 160px;
   padding-top: 150px;
 }
+#section3 article {
+  position: relative;
+}
 .section3__title {
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 150px;
   color: #ffffff;
   margin-bottom: 40px;
+}
+.ellipse6 {
+  position: absolute;
+  right: 12vw;
+  bottom: 95vh;
+}
+.vector4 {
+  position: absolute;
+  right: -10vw;
+  top: 2vh;
+}
+.ellipse6_1 {
+  position: absolute;
+  right: -20vw;
+  bottom: 7vh;
+}
+.vector4_1 {
+  position: absolute;
+  bottom: 12vh;
+  left: -4vw;
 }
 .section3__icon-container1 {
   display: flex;
@@ -230,12 +257,32 @@ main {
 #section4 {
   display: grid;
   padding: 10vh 10vw;
+  position: relative;
 }
 .section4__header h1 {
-  font-size: 6rem;
-  margin-bottom: 10vh;
+  font-size: 5rem;
+  margin-bottom: 5vh;
   color: rgba(67, 56, 202, 1);
-
+}
+.vector5 {
+  position: absolute;
+  right: 8vw;
+  top: 15vh;
+}
+.ellipse7 {
+  position: absolute;
+  right: 5vw;
+  bottom: 35vh;
+}
+.ellipse7_1 {
+  position: absolute;
+  right: 30vw;
+  bottom: 2vh;
+}
+.ellipse7_2 {
+  position: absolute;
+  left: 4vw;
+  top: 80vh;
 }
 .employmentTypes {
   display: grid;
@@ -285,6 +332,22 @@ main {
   flex-direction: column;
   justify-content: center;
   padding: 10vh 10vw;
+  position: relative;
+}
+.vector6 {
+  position: absolute;
+  top: 68vh;
+  left: 3vw;
+}
+.vector7 {
+  position: absolute;
+  bottom: 5vh;
+  right: 5vw;
+}
+.ellipse7_4 {
+  position: absolute;
+  bottom: 20vh;
+  left: 45vw;
 }
 .section5__header h1 {
   font-size: 6rem;
@@ -327,11 +390,63 @@ main {
   display: none;
   width: 22vw;
   height: 28vh;
-  padding: 10vh 5vw;
+  padding: 5vh 5vw;
   position: absolute;
   background-color: #b7dc89;
   z-index: 1;
   font-size: 1.2rem;
   bottom: 28vh;
   color: #fff;
+}
+
+#section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vw 20vh 10vw;
+  position: relative;
+}
+.section6__header h1 {
+  font-size: 5rem;
+  color: rgba(67, 56, 202, 1);
+  margin-bottom: 6vh;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(2, 30vh);
+}
+.dev1-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+.dev2-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
+.dev1-photo {
+  grid-column: 1/2;
+  width: 16vw;
+}
+.dev2-photo {
+  grid-column: 4/5;
+  width: 16vw;
+}
+.dev1-cv,
+.dev2-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7dc89;
+  width: 60vw;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+.vector8 {
+  position: absolute;
+  bottom: 5vh;
 }
