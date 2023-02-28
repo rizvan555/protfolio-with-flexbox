@@ -234,6 +234,8 @@ main {
 .section4__header h1 {
   font-size: 6rem;
   margin-bottom: 10vh;
+  color: rgba(67, 56, 202, 1);
+
 }
 .employmentTypes {
   display: grid;
@@ -287,6 +289,7 @@ main {
 .section5__header h1 {
   font-size: 6rem;
   margin-bottom: 10vh;
+  color: rgba(67, 56, 202, 1);
 }
 .projects-gallery-section {
   display: grid;
@@ -297,7 +300,7 @@ main {
 .projects-gallery-section div {
   position: relative;
 }
-.projects-gallery-section div:hover .image-box {
+.projects-gallery-section div:hover .image-box img {
   display: none;
 }
 .projects-gallery-section div:hover .language-box {
@@ -321,23 +324,14 @@ main {
 }
 .language-box {
   text-align: center;
-  align-items: center;
   display: none;
   width: 22vw;
   height: 28vh;
+  padding: 10vh 5vw;
   position: absolute;
   background-color: #b7dc89;
   z-index: 1;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  bottom: 28vh;
   color: #fff;
-}
-.laguage-frame {
-  position: absolute;
-  z-index: 0;
-  border: 3px solid rgba(67, 56, 202, 1);
-  width: 22vw;
-  height: 28vh;
-  bottom: 60px;
-  left: 10px;
-  z-index: 0;
 }
